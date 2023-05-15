@@ -4,9 +4,8 @@
 }
 
 .main{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0,)50%,rgba(0,0,0,0,)50%);
-    background-image: url(2.jpeg);
+    width: 100%;;
+    background-image: url(https://media.istockphoto.com/id/1311473275/photo/3d-abstract-futuristic-background-with-a-pedestal.jpg?b=1&s=170667a&w=0&k=20&c=gtmtowtbeiz8Thyx21zPt6ce7b7Ic0KWhuzaLpkJRTs=);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -75,14 +74,12 @@ ul li a:hover{
 }
 
 
-srch{
+.srch{
     font-family: 'Times New Roman';
     width: 200px;
-    height: 40px;
     background: transparent;
     border: 1px solid orangered;
      margin-top: 13px;
-     color: wheat;
      border-radius:none;
      font-size: 15px;
      float: left;
@@ -121,7 +118,7 @@ srch{
     width: 1200px;
     height: auto;
     margin: auto;
-    color: rgb(31, 131, 219);
+    color: rgb(3, 132, 245);
     position: relative;
 }
 
@@ -179,7 +176,7 @@ srch{
 .form{
     width: 250px;
     height: 380px;
-    background: black;
+    background: #3a393962;
     position: absolute;
     top: -20px;
     left: 870px;
@@ -228,3 +225,26 @@ srch{
     color: aliceblue;
     font-family: Arial;
 }
+
+
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgb(240, 77, 48);
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 17px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.5s ease;
+}
+
+
+
+.btnn:hover{
+    background: whitesmoke;
+    
+}
+
