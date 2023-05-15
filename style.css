@@ -25,7 +25,7 @@
 }
 
 .logo{
-    color: orangered;
+    color: rgb(243, 8, 126);
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -57,7 +57,7 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: rgb(231, 30, 30);
+    color: rgb(253, 251, 251);
     font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
@@ -179,11 +179,52 @@ srch{
 .form{
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top, rgba(0,0,0,0,)50%,rgba(0,0,0,0,)50%);
+    background: black;
     position: absolute;
     top: -20px;
     left: 870px;
     border-radius: 10px;
     padding: 25px;
 
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: crimson;
+    font-size: 22px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: antiquewhite;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+
+}
+
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: aliceblue;
+    font-family: Arial;
 }
